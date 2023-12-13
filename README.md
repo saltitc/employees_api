@@ -18,8 +18,15 @@
     docker-compose build
     docker-compose up
     ```
+4. Загрузите фикстуры (необязательно):
+    ```
+    docker-compose exec web python manage.py loaddata /app/employees/fixtures/departments.json
+    docker-compose exec web python manage.py loaddata /app/employees/fixtures/employees.json
+    docker-compose exec web python manage.py loaddata /app/employees/fixtures/positions.json
+    docker-compose exec web python manage.py loaddata /app/employees/fixtures/permissions.json
+   ```
 
-4. Откройте браузер и перейдите по адресу `http://localhost:8000`.
+5. Откройте браузер и перейдите по адресу `http://localhost:8000`.
 ---
 - Остановить контейнеры:
 
