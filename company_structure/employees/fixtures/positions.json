@@ -1,0 +1,30 @@
+[
+  {
+    "model": "employees.position",
+    "pk": 1,
+    "fields": {
+      "name": "Developer"
+    }
+  },
+  {
+    "model": "employees.position",
+    "pk": 2,
+    "fields": {
+      "name": "Tester"
+    }
+  },
+  {
+    "model": "employees.position",
+    "pk": 3,
+    "fields": {
+      "name": "Analyst"
+    }
+  },
+  {
+    "model": "employees.position",
+    "pk": 4,
+    "fields": {
+      "name": "Designer"
+    }
+  }
+]

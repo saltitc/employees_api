@@ -1,0 +1,34 @@
+[
+  {
+    "model": "employees.permission",
+    "pk": 1,
+    "fields": {
+      "position": 1,
+      "name": "Code Access"
+    }
+  },
+  {
+    "model": "employees.permission",
+    "pk": 2,
+    "fields": {
+      "position": 2,
+      "name": "Test Access"
+    }
+  },
+  {
+    "model": "employees.permission",
+    "pk": 3,
+    "fields": {
+      "position": 3,
+      "name": "Financial Analysis Access"
+    }
+  },
+  {
+    "model": "employees.permission",
+    "pk": 4,
+    "fields": {
+      "position": 4,
+      "name": "Design Access"
+    }
+  }
+]

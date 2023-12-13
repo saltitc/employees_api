@@ -1,0 +1,46 @@
+[
+  {
+    "model": "employees.employee",
+    "pk": 1,
+    "fields": {
+      "name": "Dmitry Ozhegov",
+      "department": 1,
+      "positions": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 2,
+    "fields": {
+      "name": "Ivan Eremin",
+      "department": 2,
+      "positions": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 3,
+    "fields": {
+      "name": "Julia Matveeva",
+      "department": 3,
+      "positions": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 4,
+    "fields": {
+      "name": "Alexander Morozov",
+      "department": 4,
+      "positions": [
+        4
+      ]
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "model": "employees.department",
+    "pk": 1,
+    "fields": {
+      "name": "IT Department",
+      "parent_department": null
+    }
+  },
+  {
+    "model": "employees.department",
+    "pk": 2,
+    "fields": {
+      "name": "HR Department",
+      "parent_department": null
+    }
+  },
+  {
+    "model": "employees.department",
+    "pk": 3,
+    "fields": {
+      "name": "Finance Department",
+      "parent_department": null
+    }
+  },
+  {
+    "model": "employees.department",
+    "pk": 4,
+    "fields": {
+      "name": "Marketing Department",
+      "parent_department": null
+    }
+  }
+]
