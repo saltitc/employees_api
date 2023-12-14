@@ -8,4 +8,9 @@ services:
     volumes:
       - ./company_structure:/app
     command: >
-      bash -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+      bash -c "python manage.py migrate && \
+      python manage.py loaddata /app/employees/fixtures/departments.json && \
+      python manage.py loaddata /app/employees/fixtures/positions.json && \
+      python manage.py loaddata /app/employees/fixtures/permissions.json && \
+      python manage.py loaddata /app/employees/fixtures/employees.json && \
+      python manage.py runserver 0.0.0.0:8000"
